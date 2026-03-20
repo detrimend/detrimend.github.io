@@ -1,0 +1,1 @@
+# detrimend.github.io

@@ -31,7 +31,7 @@ function App() {
           <p>Currently deployed software projects</p>
           <ul>
             <li>
-              <a href="/pokedex/" target="_blank" rel="noreferrer">
+              <a href="/Pokedex" target="_blank">
                 <img className="logo" src={psyduck} alt="" />
                 Pokedex
               </a>

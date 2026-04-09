@@ -1,12 +1,11 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import psyduck from './assets/psyduck.png'
-import linkedIn from './assets/linkedin.png'
-import './App.css'
+import reactLogo from "./assets/react.svg"
+import viteLogo from "./assets/vite.svg"
+import heroImg from "./assets/hero.png"
+import psyduck from "./assets/psyduck.png"
+import linkedIn from "./assets/linkedin.png"
+import "./App.css"
 
 function App() {
-
   return (
     <>
       <section id="center">
@@ -17,11 +16,8 @@ function App() {
         </div>
         <div>
           <h1>Rasmus Duus</h1>
-          <p>
-            Software Engineering student at VIA UC Horsens
-          </p>
+          <p>Software Engineering student at VIA UC Horsens</p>
         </div>
-        
       </section>
 
       <div className="ticks"></div>
@@ -35,7 +31,7 @@ function App() {
           <p>Currently deployed software projects</p>
           <ul>
             <li>
-              <a href="/Pokedex" target="_blank">
+              <a href="/pokedex/" target="_blank" rel="noreferrer">
                 <img className="logo" src={psyduck} alt="" />
                 Pokedex
               </a>
@@ -62,7 +58,10 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/rasmus-duus-kristensen/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/rasmus-duus-kristensen/"
+                target="_blank"
+              >
                 <img className="logo" src={linkedIn} alt="" />
                 LinkedIn
               </a>

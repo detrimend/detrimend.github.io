@@ -1,0 +1,36 @@
+.tech-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 56px);
+  justify-content: center;
+  gap: 10px;
+}
+
+.tech-square {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--social-bg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  img {
+    width: 30px;
+    height: 30px;
+    display: block;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+}
+
+@media (max-width: 1024px) {
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, 56px);
+    justify-content: center;
+  }
+}

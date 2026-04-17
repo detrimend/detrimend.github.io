@@ -1,4 +1,4 @@
-import "./TechGrid.modules.css"
+import "./TechGrid.css"
 
 function TechGrid() {
     const techIcons = [

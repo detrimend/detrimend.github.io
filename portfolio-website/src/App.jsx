@@ -1,5 +1,7 @@
 import psyduck from "./assets/psyduck.png"
 import linkedIn from "./assets/linkedin.png"
+import deployedCode from "./assets/deployed_code.svg"
+import personHeart from "./assets/person_heart.svg"
 import TechGrid from "./components/TechGrid"
 import "./App.css"
 
@@ -18,11 +20,9 @@ function App() {
 
       <section id="next-steps">
         <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
+          <img className="icon" src={deployedCode} alt="" aria-hidden="true" />
           <h2>Projects</h2>
-          <p>Currently deployed software projects</p>
+          <p>Currently deployed projects - check out my Github for more!</p>
           <ul>
             <li>
               <a href="/Pokedex" target="_blank">
@@ -33,11 +33,9 @@ function App() {
           </ul>
         </div>
         <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
+          <img className="icon" src={personHeart} alt="" aria-hidden="true" />
           <h2>Connect with me</h2>
-          <p>Check out my Github or say hi on LinkedIn!</p>
+          <p>Check out more of what i'm doing, and say hi!</p>
           <ul>
             <li>
               <a href="https://github.com/detrimend" target="_blank">
@@ -48,7 +46,7 @@ function App() {
                 >
                   <use href="/icons.svg#github-icon"></use>
                 </svg>
-                GitHub
+                Github
               </a>
             </li>
             <li>

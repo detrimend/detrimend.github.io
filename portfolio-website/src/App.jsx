@@ -2,6 +2,7 @@ import psyduck from "./assets/psyduck.png"
 import linkedIn from "./assets/linkedin.png"
 import deployedCode from "./assets/deployed_code.svg"
 import personHeart from "./assets/person_heart.svg"
+import sep4 from "./assets/sep4_icon.svg"
 import TechGrid from "./components/TechGrid"
 import "./App.css"
 
@@ -28,6 +29,12 @@ function App() {
               <a href="/Pokedex" target="_blank">
                 <img className="logo" src={psyduck} alt="" />
                 Pokedex
+              </a>
+            </li>
+            <li>
+              <a href="/sep4" target="_blank">
+                <img className="logo" src={sep4} alt="" />
+                SEP4
               </a>
             </li>
           </ul>
